@@ -30,12 +30,12 @@ We are also using MQTT to provide the locker allocation data.
 
 * Connect the PI to a power Source and and Ethernet Cable, or WIFI Dongle (and set it up) (GPIO Mode is set to GPIO.BOARD)
 * Connect the Following sensors:
-   a. Stepper Motor to pin 32, 36, 38 and 40
-   b. Buzzer to pin 15
-   c. Ultrasonic Sensor to pins (GPIO_TRIGGER: 35, GPIO_ECHO 33)
-   d. RFID to pin 8,9,10
-   e. Vibration Sensor to pin 16
-   f. Led to pin 18
+  * Stepper Motor to pin 32, 36, 38 and 40
+  * Buzzer to pin 15
+  * Ultrasonic Sensor to pins (GPIO_TRIGGER: 35, GPIO_ECHO 33)
+  * RFID to pin 8,9,10
+  * Vibration Sensor to pin 16
+  * Led to pin 18
 * Connect Vcc and Gnd for each of the previously given sensors appropriately using a breadboard
 
 ### Follow the following steps to get the locker running
